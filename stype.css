@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+.nav {
+    background-color: bisque;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto 0px;
+
+}
+.item {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.list-item {
+    padding-left: 0px;
+  margin: auto 10px;
+}
+.chart-layout {
+    padding: 32px 0px;
+background-color: white;
+height: 320px;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+
+
+}
+.chart-layout_item {
+    background-color: brown;
+height: var(--percent);
+width: 50px;
+animation: growth ease-in 1s;
+}
+@keyframes growth{
+
+    form {
+        opacity: 0;
+        height: calc(var(--percent)-50%);
+    }
+    to {
+        opacity: 1;
+        height: 100%;
+    }
+}
