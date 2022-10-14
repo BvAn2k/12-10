@@ -45,3 +45,34 @@ animation: growth ease-in 1s;
         height: 100%;
     }
 }
+.btn {
+    display: inline-flex;
+    text-decoration: none;
+   border: none;
+   outline: none;
+   border-radius: 50px ;
+   padding: 12px 48px;
+   justify-content: center;
+   width: 100%;
+cursor: pointer;
+  
+
+}
+.btn + .btn {
+    margin-left: 10px;
+}
+.btn--success {
+background-color: aquamarine;
+}
+.btn--warm {
+background-color: brown;
+}
+
+.btn--danger {
+background-color: chocolate;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+
+
