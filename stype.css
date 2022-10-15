@@ -74,5 +74,10 @@ background-color: chocolate;
 .btn:hover {
     opacity: 0.5;
 }
+#big--content__stype {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
 
-
+}
